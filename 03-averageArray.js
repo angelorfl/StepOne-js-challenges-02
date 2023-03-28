@@ -8,9 +8,12 @@
 // DICA: você vai precisar usar o length para resolver esse desafio!
 
 const exampleArray = [23, 14, 5, 300, 2];
-
+let sum = 0;
 function averageArray(array) {
-    console.log("complete com o código aqui! :)");
+    for (let i = 0; i < exampleArray.length; i++){
+        sum += exampleArray[i];
+    }
+    return sum/exampleArray.length;
 }
 
 

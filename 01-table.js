@@ -17,11 +17,16 @@
 
 
 
-function table(number) {
-    console.log("complete com o código aqui! :)");
+function table(number, limit) {
+    console.log("The table of " + number + " is:");
+    for (n = 0; n <=limit; n++){
+        console.log(number + " x " + n + " = " + (number * n));
+        
+    }
+    return number + limit;
 }
+table(8, 30);
 
-table(2);
 
 // Bônus:
 // Agora coloque mais um parâmetro na função: ao invés da tabuada ir de 1 a 10, 
