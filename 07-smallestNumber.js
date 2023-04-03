@@ -4,7 +4,14 @@
 const exampleArray = [-2, 0, 5, 9, 120, -60];
 
 function smallestNumber(array) {
-    console.log("complete com o código aqui! :)");
+    let smallestNumber = 0;
+    for (let i = 0; i < array.length; i++) {
+        const currentArrayNumber = array[i];
+        if (currentArrayNumber < smallestNumber) {
+            smallestNumber = currentArrayNumber;
+        }
+    }
+    return smallestNumber;
 }
 
 
@@ -12,7 +19,7 @@ function smallestNumber(array) {
 
 // ________________________ TEST ________________________
 console.log('TESTS:')
-if(smallestNumber(exampleArray) == -60) {
+if (smallestNumber(exampleArray) == -60) {
     console.log("✅ passed");
 } else {
     console.log("❌ failed");

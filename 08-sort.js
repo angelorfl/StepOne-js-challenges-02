@@ -5,7 +5,7 @@
 let exampleArray = [573, 105, 13, 10, 52];
 
 function sort(array) {
-    console.log("complete com o código aqui! :)");
+    return array.sort((a, b) => a - b);
 }
 
 

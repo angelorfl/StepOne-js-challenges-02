@@ -21,10 +21,12 @@
 // ######
 
 function staircase(n) {
-	console.log("complete com o código aqui! :)");
+	let line = '';
+	for (let i = 1; i < n + 1; i++) {
+		line = " ".repeat(n - i) + "#".repeat(i);
+	console.log(line);
+	}
 }
-
-
 
 
 // ________________________ TEST ________________________

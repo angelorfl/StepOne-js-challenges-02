@@ -7,7 +7,13 @@
 // [1, -2, 0, 5, 8, -3] -> [1, 0, 5, 8]
 
 function filterPositiveNumbers(array) {
-    console.log("complete com o código aqui! :)");
+    let positivNumbersArray = [];
+    for (let i = 0; i < array.length; i++){
+        if (array[i] >= 0) {
+            positivNumbersArray.push(array[i]);
+        }
+    }
+    return positivNumbersArray;    
 }
 
 

@@ -33,9 +33,10 @@ reverseString(exampleString);
 const examplePalindrome = "reviver";
 
 function palindrome(string) {
-    const reversedString = reverseString(examplePalindrome);
-    console.log("complete com o código aqui! :)");
-}
+
+    }
+
+
 
 
 // ________________________ TEST ________________________
